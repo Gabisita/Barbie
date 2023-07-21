@@ -25,7 +25,7 @@ body{
 
 h1{
     color: #e01c84;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 35px;
 }
 
@@ -86,6 +86,12 @@ p{
     box-sizing: border-box;
     display: flex;
     height: 100%;
+    cursor: pointer;
+}
+
+.slick:hover{
+    transform: scale(1.2);
+    transition: ease 0.2s;
 }
 
 .image{
@@ -144,6 +150,14 @@ figcaption{
 .benefits{
  display:flex;
  flex-direction: column;
+ margin-top: 100px;
+}
+
+.Ben{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
 }
 
 .first{
@@ -174,7 +188,7 @@ h3{
 }
 
 video{
-    width: 650px;
+    width: 655px;
 }
 
 .video{
@@ -192,9 +206,70 @@ video{
 
 table{
  width: 660px;
+ border-color: #e01c84;
 }
 
 footer{
     background-color: #dcdcdc;
     display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+td{
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-color: #e01c84;
+}
+
+.tit{
+ font-weight: 700;
+ color: #e01c84;
+}
+
+.table{
+    align-items:center;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+}
+
+.data{
+    display: flex;
+}
+
+.words{
+    align-items:center;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+input{
+    border: none;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.send{
+    width: 70px;
+    height: 50px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.sign{
+    font-size: 10px;
 }
